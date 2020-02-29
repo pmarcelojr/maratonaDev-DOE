@@ -1,1 +1,16 @@
 /* CASCADING STYLESHEET */
+
+/* Alinhamentos, espaçamentos
+larguras e alturas */
+
+header {
+    text-align: center;
+}
+
+main {
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+}
