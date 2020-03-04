@@ -1,16 +1,47 @@
 /* CASCADING STYLESHEET */
 
-/* Alinhamentos, espaçamentos
-larguras e alturas */
-
-header {
-    text-align: center;
+html, body {
+    margin: 0;
 }
 
-main {
-    text-align: center;
+body {
+    display: flex;
+    flex-direction: column;
+
+    height: 100vh;
 }
 
 footer {
+    margin-top: auto;
+}
+
+/* Alinhamentos, espaçamentos
+larguras e alturas */
+
+header, main, footer {
     text-align: center;
+}
+
+.form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+
+.donors {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+header, .form, main {
+    /* Espaçamentos */
+    margin: 0 auto 70px;
+
+    /* Limites dos elementos na Pag */
+    width: 90%;
+    max-width: 500px;
+}
+
+header h1, main h2 {
+    margin-bottom: 70px;
 }
